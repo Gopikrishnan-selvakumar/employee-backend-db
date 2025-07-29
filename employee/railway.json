@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "JAVA_VERSION": "17"
+    },
+    "command": "cd employee && ./mvnw clean install"
+  },
+  "start": {
+    "command": "cd employee && java -jar target/*.jar"
+  }
+}
